@@ -1,0 +1,19 @@
+git tutorial 
+
+//creates local repository
+cd /Users/...
+git init 
+
+//linking local to master and feching to local
+git remote add origin "http://"
+git pull origin master 
+
+//add files initially to index to make changes in master
+git status
+git add nameofchangedfile.txt
+git commit -message
+git status 
+
+//adding multiple files
+
+
